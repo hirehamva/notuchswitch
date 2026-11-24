@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0">
+<rect x="0" y="0" width="210" height="297" fill="white"/>
+<text x="105.000" y="14.000" font-size="4.000" font-family="Arial, sans-serif" text-anchor="middle">No-touch switch cover drilling template - 1:1</text>
+<text x="105.000" y="20.000" font-size="2.600" font-family="Arial, sans-serif" text-anchor="middle">APDS sensor + WS2812 LED</text>
+<g id="Outside_/_top_template">
+<text x="49.500" y="27.000" font-size="3.000" font-family="Arial, sans-serif" text-anchor="middle">Outside / top template</text>
+<polygon points="33.500,36.000 65.500,36.000 76.000,46.500 76.000,78.500 65.500,89.000 65.500,99.000 33.500,99.000 33.500,89.000 23.000,78.500 23.000,46.500" fill="none" stroke="#111" stroke-width="0.35"/>
+<line x1="49.500" y1="36.000" x2="49.500" y2="99.000" stroke="#aaa" stroke-width="0.12" stroke-dasharray="1 1"/>
+<line x1="23.000" y1="67.500" x2="76.000" y2="67.500" stroke="#aaa" stroke-width="0.12" stroke-dasharray="1 1"/>
+<circle cx="39.500" cy="94.000" r="1.750" fill="none" stroke="#777" stroke-width="0.18" stroke-dasharray="0.8 0.8"/>
+<text x="39.500" y="91.400" font-size="1.700" font-family="Arial, sans-serif" text-anchor="middle">H1</text>
+<circle cx="59.500" cy="94.000" r="1.750" fill="none" stroke="#777" stroke-width="0.18" stroke-dasharray="0.8 0.8"/>
+<text x="59.500" y="91.400" font-size="1.700" font-family="Arial, sans-serif" text-anchor="middle">H2</text>
+<circle cx="50.350" cy="44.030" r="3.000" fill="none" stroke="#d00000" stroke-width="0.25"/>
+<line x1="45.850" y1="44.030" x2="54.850" y2="44.030" stroke="#d00000" stroke-width="0.18"/>
+<line x1="50.350" y1="39.530" x2="50.350" y2="48.530" stroke="#d00000" stroke-width="0.18"/>
+<circle cx="50.350" cy="44.030" r="0.45" fill="#d00000"/>
+<circle cx="50.350" cy="44.030" r="4.000" fill="none" stroke="#d00000" stroke-width="0.18" stroke-dasharray="0.8 0.8"/>
+<text x="55.550" y="42.630" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">APDS sensor</text>
+<text x="55.550" y="45.430" font-size="1.800" font-family="Arial, sans-serif" text-anchor="start">hole 6.0 mm</text>
+<circle cx="39.000" cy="66.000" r="1.500" fill="none" stroke="#d00000" stroke-width="0.25"/>
+<line x1="35.500" y1="66.000" x2="42.500" y2="66.000" stroke="#d00000" stroke-width="0.18"/>
+<line x1="39.000" y1="62.500" x2="39.000" y2="69.500" stroke="#d00000" stroke-width="0.18"/>
+<circle cx="39.000" cy="66.000" r="0.45" fill="#d00000"/>
+<text x="44.200" y="64.600" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">WS2812 LED</text>
+<text x="44.200" y="67.400" font-size="1.800" font-family="Arial, sans-serif" text-anchor="start">hole 3.0 mm</text>
+<text x="23.000" y="105.000" font-size="1.900" font-family="Arial, sans-serif" text-anchor="start">Cut around the outline or align it to the PCB edge.</text>
+<text x="23.000" y="108.000" font-size="1.900" font-family="Arial, sans-serif" text-anchor="start">Red dot = hole center.</text>
+</g>
+<g id="Mirrored_inside_template">
+<text x="149.500" y="27.000" font-size="3.000" font-family="Arial, sans-serif" text-anchor="middle">Mirrored inside template</text>
+<polygon points="165.500,36.000 133.500,36.000 123.000,46.500 123.000,78.500 133.500,89.000 133.500,99.000 165.500,99.000 165.500,89.000 176.000,78.500 176.000,46.500" fill="none" stroke="#111" stroke-width="0.35"/>
+<line x1="149.500" y1="36.000" x2="149.500" y2="99.000" stroke="#aaa" stroke-width="0.12" stroke-dasharray="1 1"/>
+<line x1="123.000" y1="67.500" x2="176.000" y2="67.500" stroke="#aaa" stroke-width="0.12" stroke-dasharray="1 1"/>
+<circle cx="159.500" cy="94.000" r="1.750" fill="none" stroke="#777" stroke-width="0.18" stroke-dasharray="0.8 0.8"/>
+<text x="159.500" y="91.400" font-size="1.700" font-family="Arial, sans-serif" text-anchor="middle">H1</text>
+<circle cx="139.500" cy="94.000" r="1.750" fill="none" stroke="#777" stroke-width="0.18" stroke-dasharray="0.8 0.8"/>
+<text x="139.500" y="91.400" font-size="1.700" font-family="Arial, sans-serif" text-anchor="middle">H2</text>
+<circle cx="148.650" cy="44.030" r="3.000" fill="none" stroke="#d00000" stroke-width="0.25"/>
+<line x1="144.150" y1="44.030" x2="153.150" y2="44.030" stroke="#d00000" stroke-width="0.18"/>
+<line x1="148.650" y1="39.530" x2="148.650" y2="48.530" stroke="#d00000" stroke-width="0.18"/>
+<circle cx="148.650" cy="44.030" r="0.45" fill="#d00000"/>
+<circle cx="148.650" cy="44.030" r="4.000" fill="none" stroke="#d00000" stroke-width="0.18" stroke-dasharray="0.8 0.8"/>
+<text x="153.850" y="42.630" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">APDS sensor</text>
+<text x="153.850" y="45.430" font-size="1.800" font-family="Arial, sans-serif" text-anchor="start">hole 6.0 mm</text>
+<circle cx="160.000" cy="66.000" r="1.500" fill="none" stroke="#d00000" stroke-width="0.25"/>
+<line x1="156.500" y1="66.000" x2="163.500" y2="66.000" stroke="#d00000" stroke-width="0.18"/>
+<line x1="160.000" y1="62.500" x2="160.000" y2="69.500" stroke="#d00000" stroke-width="0.18"/>
+<circle cx="160.000" cy="66.000" r="0.45" fill="#d00000"/>
+<text x="165.200" y="64.600" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">WS2812 LED</text>
+<text x="165.200" y="67.400" font-size="1.800" font-family="Arial, sans-serif" text-anchor="start">hole 3.0 mm</text>
+<text x="123.000" y="105.000" font-size="1.900" font-family="Arial, sans-serif" text-anchor="start">Cut around the outline or align it to the PCB edge.</text>
+<text x="123.000" y="108.000" font-size="1.900" font-family="Arial, sans-serif" text-anchor="start">Red dot = hole center.</text>
+</g>
+<text x="23.000" y="128.000" font-size="2.200" font-family="Arial, sans-serif" text-anchor="start">Dimensions from the top-left PCB bounding-box corner:</text>
+<text x="23.000" y="132.000" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">APDS: X=27.35 mm, Y=8.03 mm, hole 6.0 mm</text>
+<text x="23.000" y="136.000" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">LED:  X=16.00 mm, Y=30.00 mm, hole 3.0 mm</text>
+<text x="23.000" y="140.000" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">APDS position: 13.97 mm above J5 center.</text>
+<text x="23.000" y="146.000" font-size="2.000" font-family="Arial, sans-serif" text-anchor="start">Print at 100%; verify the 20 mm scale bar below.</text>
+<line x1="23" y1="154" x2="43" y2="154" stroke="#111" stroke-width="0.35"/>
+<line x1="23" y1="151.5" x2="23" y2="156.5" stroke="#111" stroke-width="0.35"/>
+<line x1="43" y1="151.5" x2="43" y2="156.5" stroke="#111" stroke-width="0.35"/>
+<text x="33.000" y="160.000" font-size="2.100" font-family="Arial, sans-serif" text-anchor="middle">20 mm</text>
+<text x="23.000" y="170.000" font-size="1.800" font-family="Arial, sans-serif" text-anchor="start">Note: APDS position is calculated for a SparkFun-compatible APDS9960-M module.</text>
+<text x="23.000" y="173.500" font-size="1.800" font-family="Arial, sans-serif" text-anchor="start">For another module, measure the sensor-chip to header offset before drilling.</text>
+</svg>

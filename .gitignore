@@ -1,0 +1,14 @@
+# Arduino and temporary build output
+software/build/
+*.lst
+*.map
+
+# KiCad local state and locks
+*.kicad_prl
+*.lck
+fp-info-cache
+
+# Operating-system files
+Thumbs.db
+.DS_Store
+Desktop.ini

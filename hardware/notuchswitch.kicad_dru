@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "Mains to SELV clearance"
+	(constraint clearance (min 3mm))
+	(condition "((A.NetName == 'L_IN' || A.NetName == 'L_FUSED' || A.NetName == 'N_AC' || A.NetName == 'L_SW' || A.NetName == 'RELAY_L_IN_WIRE') && !(B.NetName == 'L_IN' || B.NetName == 'L_FUSED' || B.NetName == 'N_AC' || B.NetName == 'L_SW' || B.NetName == 'RELAY_L_IN_WIRE')) || ((B.NetName == 'L_IN' || B.NetName == 'L_FUSED' || B.NetName == 'N_AC' || B.NetName == 'L_SW' || B.NetName == 'RELAY_L_IN_WIRE') && !(A.NetName == 'L_IN' || A.NetName == 'L_FUSED' || A.NetName == 'N_AC' || A.NetName == 'L_SW' || A.NetName == 'RELAY_L_IN_WIRE'))")
+)
+
+(rule "Mains track width"
+	(constraint track_width (min 1mm))
+	(condition "A.NetName == 'L_IN' || A.NetName == 'L_FUSED' || A.NetName == 'N_AC' || A.NetName == 'L_SW' || A.NetName == 'RELAY_L_IN_WIRE'")
+)

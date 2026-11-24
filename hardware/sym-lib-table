@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "notuchswitch")(type "KiCad")(uri "${KIPRJMOD}/notuchswitch.kicad_sym")(options "")(descr "Portable project symbols"))
+)

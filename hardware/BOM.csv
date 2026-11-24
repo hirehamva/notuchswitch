@@ -1,0 +1,33 @@
+﻿Reference,Value,Footprint,Status,Note
+J1,L_IN_BROWN_0.75mm2,notuchswitch:WirePad_D3.2mm,selected,Soldered brown mains lead
+J2,N_IN_BLUE_0.75mm2,notuchswitch:WirePad_D3.2mm,selected,Soldered blue neutral input lead
+J3,L_SW_BLACK_0.75mm2,notuchswitch:WirePad_D3.2mm,selected,Soldered black switched-live output lead
+J4,N_OUT_BLUE_0.75mm2,notuchswitch:WirePad_D3.2mm,selected,Soldered blue neutral onward lead; mark separately from J2
+J8,RELAY_L_IN_WIRE_0.75mm2,notuchswitch:WirePad_D3.2mm,selected,Relay pin 14 solder pad; connect to fused live with an external insulated wire
+F1,T1A_250V_SLOW,notuchswitch:Fuse_Radial_P5.08mm_PLACEHOLDER,verify footprint,Soldered PCB fuse; verify purchased fuse dimensions
+RV1,10D561K_RECOMMENDED_BY_HLK,notuchswitch:Varistor_10D_P7.50mm_PLACEHOLDER,verify footprint,"THT varistor; HLK-2M05 datasheet recommends 10D561K, verify exact purchased part and spacing"
+CX1,100nF_X2_275VAC,notuchswitch:X2_Capacitor_P10.00mm_PLACEHOLDER,verify footprint,THT class X2 capacitor; verify exact body dimensions
+PS1,HLK-2M05_5V_400mA,notuchswitch:HLK-2M05,selected,"Selected isolated AC/DC module, 30.5 x 16.5 x 19 mm body; 400 mA continuous, at least 500 mA short-term"
+K1,HF32F-G_005-HS_5V,notuchswitch:HF32F-G,selected,Normally-open relay: hardware default is OFF; pin 14 is fed through J8 by an external insulated wire
+C1,220uF_10V,Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm,selected,5 V output bulk capacitor
+U2,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,selected,
+C2,10uF_10V,Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm,selected,AMS1117 input capacitor
+C3,10uF_10V,Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm,selected,AMS1117 output capacitor
+C4,100nF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,selected,MCU local decoupling
+C5,100nF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,selected,APDS module local decoupling
+C6,100nF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,selected,WS2812 local decoupling
+U1,ATtiny3216-S_SOIC20,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,selected,Official KiCad ATtiny3216-S pinout checked; unused GPIO remain free
+Q1,IRLML6344,Package_TO_SOT_SMD:SOT-23,selected,
+D1,1N4148WS,Diode_SMD:D_SOD-323_HandSoldering,selected,Relay flyback diode: pin 1 cathode to +5 V
+D5,BAT54HT1G,Diode_SMD:D_SOD-323_HandSoldering,selected,SerialUPDI Schottky diode: pin 1 cathode to UART_TX
+R1,100R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,selected,
+R2,10k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,selected,MOSFET gate pull-down keeps relay OFF at reset
+J5,APDS-9960_BREAKOUT_1x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,verify module pin order,"Expected order VL,GND,VCC,SDA,SCL,INT; verify delivered breakout before soldering"
+R6,10k_DNP,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,DNP optional,Optional SDA pull-up
+R7,10k_DNP,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,DNP optional,Optional SCL pull-up
+R8,10k_DNP,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,DNP optional,Optional INT pull-up
+D4,WS2812B-V5/W,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,selected,V5/W VIH margin is narrow at 3.3 V MCU drive; verify on prototype
+R3,470R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,selected,
+R9,470R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,selected,On-board SerialUPDI series resistor
+J6,USB_A_SLOW_CHARGE_ONLY,Connector_USB:USB_A_Molex_67643_Horizontal,selected,Direct +5 V VBUS; D+/D- intentionally unconnected; charging speed and phone compatibility are device-dependent
+J7,SERIALUPDI_UART_HEADER,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,selected,Compact 2x2 2.54 mm header for direct USB-UART module connection

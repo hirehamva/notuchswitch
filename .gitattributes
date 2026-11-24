@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.jpg binary
+*.pdf binary
+*.zip binary
+*.gbr text eol=lf
+*.drl text eol=lf
+*.gbrjob text eol=lf

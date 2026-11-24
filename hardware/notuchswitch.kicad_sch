@@ -1,0 +1,6012 @@
+(kicad_sch
+	(version 20250114)
+	(generator eeschema)
+	(generator_version "9.0")
+	(uuid 53dc1b8e-9baf-55a0-b94e-605770f90b8b)
+	(paper "A4")
+	(lib_symbols
+		(symbol "notuchswitch:AMS1117_3V3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117_3V3"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117_3V3_0_1"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117_3V3_1_1"
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:ATTINY3216_SOIC20"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ATTINY3216_SOIC20"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ATTINY3216_SOIC20_0_1"
+				(rectangle
+					(start -15.24 -20.32)
+					(end 15.24 20.32)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ATTINY3216_SOIC20_1_1"
+				(pin passive line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "PC0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "PC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "PC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "PC3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 25.4 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 20.32 180)
+					(length 5.08)
+					(name "PA0/UPDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "PA1/TX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "PA2/RX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "PB0/SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "PB1/SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:CAP_VERTICAL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAP_VERTICAL"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_VERTICAL_0_1"
+				(rectangle
+					(start -2.54 -5.08)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CAP_VERTICAL_1_1"
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:CONN_1X02"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN_1X02"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_1X02_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CONN_1X02_1_1"
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:CONN_1X03"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN_1X03"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_1X03_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CONN_1X03_1_1"
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:CONN_1X06"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN_1X06"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_1X06_0_1"
+				(rectangle
+					(start -5.08 -15.24)
+					(end 5.08 15.24)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CONN_1X06_1_1"
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:CONN_2X02"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN_2X02"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_2X02_0_1"
+				(rectangle
+					(start -5.08 -10.16)
+					(end 5.08 10.16)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CONN_2X02_1_1"
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:HLK_2M05"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HLK_2M05"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HLK_2M05_0_1"
+				(rectangle
+					(start -12.7 -8.89)
+					(end 12.7 8.89)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HLK_2M05_1_1"
+				(pin passive line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "AC/L"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "AC/N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:MOSFET_N"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MOSFET_N"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MOSFET_N_0_1"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MOSFET_N_1_1"
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:PASSIVE2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PASSIVE2"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PASSIVE2_0_1"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PASSIVE2_1_1"
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:RELAY_SPST_NO"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RELAY_SPST_NO"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RELAY_SPST_NO_0_1"
+				(rectangle
+					(start -10.16 -13.97)
+					(end 10.16 13.97)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RELAY_SPST_NO_1_1"
+				(pin passive line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:USB_A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_A"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_A_0_1"
+				(rectangle
+					(start -7.62 -10.16)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "USB_A_1_1"
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:WIRE_PAD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WIRE_PAD"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WIRE_PAD_0_1"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WIRE_PAD_1_1"
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "WIRE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "notuchswitch:WS2812B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 38.1)
+			(xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 886dd2c6-143e-5b71-8a08-c5b457645013)
+	)
+	(label "L_IN"
+		(at 35.56 38.1 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid e7a4c671-3aa4-5eb3-8ac1-8a6896f318c3)
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26)
+			(xy 35.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid daff1be5-f60f-532a-8c05-e744a153652e)
+	)
+	(label "N_AC"
+		(at 35.56 48.26 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid f5014be3-35e7-5486-8f4f-23cc70b0d9bf)
+	)
+	(wire
+		(pts
+			(xy 187.96 38.1)
+			(xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 58618ba1-4f79-53c8-b0c8-510e47f8e6bc)
+	)
+	(label "L_SW"
+		(at 190.5 38.1 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid aa91a560-573a-51ce-a7b2-44cc088c12e0)
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42)
+			(xy 35.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b5f37b16-85c2-58a3-b34c-665f22dcc132)
+	)
+	(label "N_AC"
+		(at 35.56 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 9ee074a8-f229-5ca7-a938-cbf634316d10)
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58)
+			(xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 86bccabd-6900-5aae-a7c5-5b32ac4c6327)
+	)
+	(label "RELAY_L_IN_WIRE"
+		(at 190.5 68.58 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b90a2eca-37ee-55cd-b366-e441a3f2a527)
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1)
+			(xy 40.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a64659cf-db3e-5e09-bf31-cb964b8c0412)
+	)
+	(label "L_IN"
+		(at 40.64 38.1 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b93a9225-b3be-56b2-ba56-d61dbd299a17)
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1)
+			(xy 66.04 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2bb0c58c-5a11-5356-a20b-5a742668ce17)
+	)
+	(label "L_FUSED"
+		(at 66.04 38.1 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid e758e6f3-9c83-561e-8a84-7e6233378172)
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42)
+			(xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f9d44159-4a3f-5b80-a835-e1294b8e92f5)
+	)
+	(label "L_FUSED"
+		(at 40.64 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 8160fc70-50ca-51ad-8543-28528331181a)
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42)
+			(xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ac486f44-fe61-54dd-8687-9a818761ce84)
+	)
+	(label "N_AC"
+		(at 66.04 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 0cc62616-c704-5023-be1a-96a81e33be3f)
+	)
+	(wire
+		(pts
+			(xy 83.82 58.42)
+			(xy 81.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a28d0595-5f3d-5621-9edd-7e36db4b001b)
+	)
+	(label "L_FUSED"
+		(at 81.28 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 92780182-14ee-5a51-889a-34f0b90018f5)
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42)
+			(xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 29285388-67b1-58d1-968d-9e163f6c59ef)
+	)
+	(label "N_AC"
+		(at 106.68 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid d8a9c891-466f-524f-a68d-1b39608688a2)
+	)
+	(wire
+		(pts
+			(xy 76.2 35.56)
+			(xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 085a2962-992c-58c1-9b18-319a00c9910a)
+	)
+	(label "L_FUSED"
+		(at 73.66 35.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 111ba31f-46ef-5617-b4bb-5350fecf8bf8)
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72)
+			(xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 103a6319-c976-5454-83cf-decdda9aa678)
+	)
+	(label "N_AC"
+		(at 73.66 45.72 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b45cb68e-e074-5b06-b2ef-6943d0a08d9e)
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72)
+			(xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid efdc8520-2263-543b-ab8f-8398fbf52998)
+	)
+	(label "GND"
+		(at 114.3 45.72 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid eacf24f9-606d-5619-b301-1b1cbe20512c)
+	)
+	(wire
+		(pts
+			(xy 111.76 35.56)
+			(xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ed1bc360-b885-51ab-a257-4ca1ea5a630b)
+	)
+	(label "+5V"
+		(at 114.3 35.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid af98efa1-c25b-5703-882f-243be6be08c9)
+	)
+	(wire
+		(pts
+			(xy 127 30.48)
+			(xy 124.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 1636ba4e-155e-517d-a0fe-033ac2a78cab)
+	)
+	(label "+5V"
+		(at 124.46 30.48 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid ffdef936-ef49-5b3f-af6b-dacda5cb6d7d)
+	)
+	(wire
+		(pts
+			(xy 127 50.8)
+			(xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ce2f7dbf-6d8d-5ce9-bbbf-697e4c588629)
+	)
+	(label "RELAY_COIL_LOW"
+		(at 124.46 50.8 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 1b4bad5c-17cf-524a-92e9-e4c490623e11)
+	)
+	(wire
+		(pts
+			(xy 157.48 30.48)
+			(xy 160.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 55b76cc0-e541-577f-8b56-f282d9b7902c)
+	)
+	(label "RELAY_L_IN_WIRE"
+		(at 160.02 30.48 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 7c37541f-d3ed-5c8d-b90c-14dd2177f6bb)
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8)
+			(xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f7f2b234-505f-54f0-aef3-2be3268a0aef)
+	)
+	(label "L_SW"
+		(at 160.02 50.8 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid e9189f98-01f8-5e1c-b4c0-ef18d40915b8)
+	)
+	(wire
+		(pts
+			(xy 22.86 76.2)
+			(xy 25.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9a30408a-efb3-5488-97ad-c21cddceb991)
+	)
+	(label "+5V"
+		(at 25.4 76.2 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 40289f1a-1bef-5653-bf96-40a7a531269b)
+	)
+	(wire
+		(pts
+			(xy 22.86 96.52)
+			(xy 25.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid aab4c2ac-6292-59af-830c-7e6e2b4cc1ad)
+	)
+	(label "GND"
+		(at 25.4 96.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 51ec7ad1-00fd-573c-a8b3-28faaa8759cb)
+	)
+	(wire
+		(pts
+			(xy 55.88 99.06)
+			(xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 483636e8-631f-59f9-80a4-eca270b95357)
+	)
+	(label "GND"
+		(at 58.42 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 83c86ee7-8fa2-5fd5-ac22-9b71ca98deea)
+	)
+	(wire
+		(pts
+			(xy 68.58 86.36)
+			(xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2f9a7b79-bd7f-5c4c-9c78-0bd20ff1d183)
+	)
+	(label "+3V3"
+		(at 71.12 86.36 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 1b7fed90-6278-53b7-a916-730155ae84d2)
+	)
+	(wire
+		(pts
+			(xy 43.18 86.36)
+			(xy 40.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f3ef4f4e-e63b-546f-af6d-d455906684ea)
+	)
+	(label "+5V"
+		(at 40.64 86.36 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b3f8798b-7a8f-5531-9292-9ab4668c03ca)
+	)
+	(wire
+		(pts
+			(xy 33.02 91.44)
+			(xy 35.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9ef20fb7-aeff-52ec-8525-6191dbf36716)
+	)
+	(label "+5V"
+		(at 35.56 91.44 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 1c2a7a86-b20f-57c2-ba93-1759fdf257be)
+	)
+	(wire
+		(pts
+			(xy 33.02 111.76)
+			(xy 35.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 378ad7ab-2007-5ebd-abff-d48143fe69aa)
+	)
+	(label "GND"
+		(at 35.56 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b777f1cf-5432-5e3f-9cbe-a6e712dc9689)
+	)
+	(wire
+		(pts
+			(xy 78.74 91.44)
+			(xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 19af8677-8101-5b10-b403-70b26dbfbcff)
+	)
+	(label "+3V3"
+		(at 81.28 91.44 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid c7424575-c3bf-5f97-a27e-9bcd58308c9a)
+	)
+	(wire
+		(pts
+			(xy 78.74 111.76)
+			(xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2d34604f-4311-5934-b1dd-e7b90a48d9e0)
+	)
+	(label "GND"
+		(at 81.28 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 361312d8-41bb-5522-b9b0-0e1e7922ccae)
+	)
+	(wire
+		(pts
+			(xy 93.98 134.62)
+			(xy 91.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f2ea8b87-87a2-5486-a2bc-2bbedc3e7c23)
+	)
+	(label "+3V3"
+		(at 91.44 134.62 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 6a0738ab-946c-5e93-b382-564eb1118746)
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62)
+			(xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 650ef4ab-3da4-5f70-ad4e-0f8f47d6f2bf)
+	)
+	(label "GND"
+		(at 116.84 134.62 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid c3e0b357-7aa4-502e-b52d-97f6344403b7)
+	)
+	(wire
+		(pts
+			(xy 223.52 185.42)
+			(xy 220.98 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 161002f9-5453-57c0-b3b4-105f6d1e79a3)
+	)
+	(label "+3V3"
+		(at 220.98 185.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 41c65382-9947-53d1-bdcf-7ecc02781588)
+	)
+	(wire
+		(pts
+			(xy 243.84 185.42)
+			(xy 246.38 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 919a62ca-b137-5555-b4ed-83307229e18a)
+	)
+	(label "GND"
+		(at 246.38 185.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 36c023fa-0a2c-58ac-b137-c03a74332808)
+	)
+	(wire
+		(pts
+			(xy 226.06 127)
+			(xy 223.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b6e2c3c2-5ce0-5eec-8db6-0f3d8ae300ca)
+	)
+	(label "+5V"
+		(at 223.52 127 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid d51bf835-6f21-51a8-9284-b3a009a60123)
+	)
+	(wire
+		(pts
+			(xy 246.38 127)
+			(xy 248.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7194106c-252e-5d03-af52-34c4cdf767e8)
+	)
+	(label "GND"
+		(at 248.92 127 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 966d980a-a587-559e-aae3-4d0154c3a2af)
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36)
+			(xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 408391ad-7f59-5c65-88ea-f7727c0707af)
+	)
+	(label "+3V3"
+		(at 134.62 86.36 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 03e328f7-d900-5770-b848-bde4dd04b341)
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3)
+			(xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cba80adf-2ba3-5407-b81d-61479e32994e)
+	)
+	(label "I2C_SDA"
+		(at 154.94 114.3 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid a266a736-4777-5431-9f92-99026cc9a790)
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76)
+			(xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 05be01fb-104d-5130-a7ae-915d0b1da5c6)
+	)
+	(label "I2C_SCL"
+		(at 154.94 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 74adf202-1ea3-5337-9134-477f46896333)
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3)
+			(xy 109.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cbb341db-7f4b-54b6-bad7-6481af7a65fc)
+	)
+	(label "RELAY_CTRL"
+		(at 109.22 114.3 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid d78e8157-56f3-5cb4-80ed-e1baa8fbc86c)
+	)
+	(wire
+		(pts
+			(xy 111.76 116.84)
+			(xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 347a02fe-cdce-5165-8c80-ad79eec82b94)
+	)
+	(label "WS_DATA"
+		(at 109.22 116.84 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid e498bcf8-b4a6-5c70-a79c-c959df0dd9bc)
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44)
+			(xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5742eeed-0962-57f9-97d9-dec85a816d8b)
+	)
+	(label "UPDI"
+		(at 154.94 91.44 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 421a9807-c0e3-5891-94f9-7f2d8117d87c)
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06)
+			(xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a95d915d-0520-5713-a7ab-ab640b0be983)
+	)
+	(label "APDS_INT"
+		(at 154.94 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 239137d6-d97d-5c81-ac87-478cee8719b2)
+	)
+	(wire
+		(pts
+			(xy 132.08 137.16)
+			(xy 134.62 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 62fd697b-ee85-51f1-94b4-ed5b0e2bc0bc)
+	)
+	(label "GND"
+		(at 134.62 137.16 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 07d8cd44-89fa-5378-8cf9-bf73b85be8a8)
+	)
+	(wire
+		(pts
+			(xy 185.42 111.76)
+			(xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid aa7cb5cc-c3fc-56bb-bcfe-437d52138dcd)
+	)
+	(label "RELAY_GATE"
+		(at 182.88 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 46c64839-06c7-5b8e-b9bd-5aa0767db650)
+	)
+	(wire
+		(pts
+			(xy 198.12 124.46)
+			(xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid db7991db-8730-5f2f-953d-90330f667b72)
+	)
+	(label "GND"
+		(at 200.66 124.46 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid efc0d6e8-7980-56ab-8807-e7486b2b2414)
+	)
+	(wire
+		(pts
+			(xy 198.12 99.06)
+			(xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b347bbfb-5e5b-51d0-952b-cbe8c1d74ec5)
+	)
+	(label "RELAY_COIL_LOW"
+		(at 200.66 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid e7955686-265d-5f10-8a78-7e3e881e8242)
+	)
+	(wire
+		(pts
+			(xy 187.96 96.52)
+			(xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2a722c29-b750-50ca-9715-386b25451b97)
+	)
+	(label "+5V"
+		(at 185.42 96.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid a28b25dd-ceaf-55b2-9194-367b00fcbd9a)
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52)
+			(xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 123210fc-8a39-5927-81e1-69de655eb3af)
+	)
+	(label "RELAY_COIL_LOW"
+		(at 210.82 96.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 4b59d4ef-3d5b-5cb8-963c-71bc2983cc0f)
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76)
+			(xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 1a40a2a6-eb98-52d3-856b-6c9989674cc1)
+	)
+	(label "RELAY_CTRL"
+		(at 157.48 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 3567c806-1b36-5871-96c5-cb76049c946c)
+	)
+	(wire
+		(pts
+			(xy 180.34 111.76)
+			(xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a07b6166-db31-522c-9b40-bcb6de962cdd)
+	)
+	(label "RELAY_GATE"
+		(at 182.88 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b2d9ce2a-23b2-58ad-b543-3271a5f9dc5c)
+	)
+	(wire
+		(pts
+			(xy 167.64 124.46)
+			(xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 87c8b4f6-a4cb-5918-9fec-2084758deb83)
+	)
+	(label "RELAY_GATE"
+		(at 165.1 124.46 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 108bfa3e-82f8-5c5a-a761-5a05a9b7d493)
+	)
+	(wire
+		(pts
+			(xy 187.96 124.46)
+			(xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d775287b-07e7-5f8f-b4c2-4c4d370e3b73)
+	)
+	(label "GND"
+		(at 190.5 124.46 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid ac919408-1d38-5b85-8e60-80f024e8d0b7)
+	)
+	(wire
+		(pts
+			(xy 187.96 149.86)
+			(xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2d307495-76e4-595f-92cf-c2bd6b77853b)
+	)
+	(label "+3V3"
+		(at 190.5 149.86 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 14a7c2be-2e28-584f-acad-14167a75be76)
+	)
+	(wire
+		(pts
+			(xy 187.96 154.94)
+			(xy 190.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 78905c2b-45d8-5bd0-8a3c-6aa469c95220)
+	)
+	(label "GND"
+		(at 190.5 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid e681797d-3697-5a67-8562-9dbe34d3b157)
+	)
+	(wire
+		(pts
+			(xy 187.96 160.02)
+			(xy 190.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c47ba429-5de4-5780-814e-628c6111826a)
+	)
+	(label "+3V3"
+		(at 190.5 160.02 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 2f9981f7-a117-56a9-b492-85f899a83de0)
+	)
+	(wire
+		(pts
+			(xy 187.96 165.1)
+			(xy 190.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 1409809d-39fa-530a-8191-55f39b6059d2)
+	)
+	(label "I2C_SDA"
+		(at 190.5 165.1 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b8b8fdb1-8105-5f89-b8fe-38344daab349)
+	)
+	(wire
+		(pts
+			(xy 187.96 170.18)
+			(xy 190.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid efd77801-f0a8-523f-a59d-6fcf5aaf6853)
+	)
+	(label "I2C_SCL"
+		(at 190.5 170.18 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid f5fe189e-7f1c-5882-9596-0e0a372796c6)
+	)
+	(wire
+		(pts
+			(xy 187.96 175.26)
+			(xy 190.5 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid aabc1715-f0cb-52a5-bc6e-99f60af7f2af)
+	)
+	(label "APDS_INT"
+		(at 190.5 175.26 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 8d7880a5-1ee3-5700-bf53-1934a3d9d681)
+	)
+	(wire
+		(pts
+			(xy 195.58 152.4)
+			(xy 193.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d052a11e-a543-5769-99cf-6f00c60cac84)
+	)
+	(label "+3V3"
+		(at 193.04 152.4 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid f7e709da-fd81-5dd0-936e-770d3c5100dc)
+	)
+	(wire
+		(pts
+			(xy 215.9 152.4)
+			(xy 218.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3a257a4b-8aac-5aa5-ba66-a881e6dd33c9)
+	)
+	(label "I2C_SDA"
+		(at 218.44 152.4 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 7448a45a-a1a2-55ba-96db-4349a31627e7)
+	)
+	(wire
+		(pts
+			(xy 195.58 162.56)
+			(xy 193.04 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 806efa9b-731b-5793-b53d-e312037c8a9b)
+	)
+	(label "+3V3"
+		(at 193.04 162.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 9f5c6b3e-dd59-5153-92b1-4d371ac1543e)
+	)
+	(wire
+		(pts
+			(xy 215.9 162.56)
+			(xy 218.44 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d2bf2ce0-5bd2-5f58-9c33-0953886830d1)
+	)
+	(label "I2C_SCL"
+		(at 218.44 162.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid dabd79c9-e4fc-502f-8202-d6bc0dfb83f9)
+	)
+	(wire
+		(pts
+			(xy 195.58 172.72)
+			(xy 193.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f3bc5295-be39-500b-98a0-aaa038145a8f)
+	)
+	(label "+3V3"
+		(at 193.04 172.72 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 4f0e9f73-9273-5efd-b450-33ea8d8a807f)
+	)
+	(wire
+		(pts
+			(xy 215.9 172.72)
+			(xy 218.44 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid dae2cb80-23ca-533e-a159-a399db45be73)
+	)
+	(label "APDS_INT"
+		(at 218.44 172.72 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid d876bae1-d340-5a7a-ae14-b28cbe570582)
+	)
+	(wire
+		(pts
+			(xy 238.76 99.06)
+			(xy 241.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e547eb46-e62a-5eba-be14-a72cca2190fd)
+	)
+	(label "+5V"
+		(at 241.3 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 054b080f-de65-56c7-a3d0-5cae7ad555f5)
+	)
+	(wire
+		(pts
+			(xy 238.76 124.46)
+			(xy 241.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2cd79bc8-44e8-581b-9109-83a64002443a)
+	)
+	(label "GND"
+		(at 241.3 124.46 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 305dc9fd-9b41-59e5-82c9-ec81c3ec2174)
+	)
+	(wire
+		(pts
+			(xy 226.06 111.76)
+			(xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5f0ceca9-23ca-5252-9ef8-747f52e0998e)
+	)
+	(label "WS_DIN"
+		(at 223.52 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid f7973e94-552d-5288-841c-9230eafbf5cc)
+	)
+	(wire
+		(pts
+			(xy 205.74 111.76)
+			(xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid dc472204-dd18-5ea4-97d0-127d5588b3e6)
+	)
+	(label "WS_DATA"
+		(at 203.2 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid ca06f5f4-1f83-56f8-8ac2-9fedb155c5b2)
+	)
+	(wire
+		(pts
+			(xy 226.06 111.76)
+			(xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7ca196b8-e5cd-51dc-98ac-b1666f0b3548)
+	)
+	(label "WS_DIN"
+		(at 228.6 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 44c73697-986d-5bb3-90ef-26c945edae02)
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64)
+			(xy 254 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7e513542-7cfb-5b23-bb65-74c77cc04a8d)
+	)
+	(label "+5V"
+		(at 254 40.64 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 007a5b27-06fb-54e8-904c-7a0a25154d89)
+	)
+	(wire
+		(pts
+			(xy 251.46 55.88)
+			(xy 254 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 750a9fd6-f57d-5af5-8667-4af5867e7844)
+	)
+	(label "GND"
+		(at 254 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 16d567e6-77ba-5381-bb76-02bb3dd9fef8)
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88)
+			(xy 223.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 88150237-7c79-5132-a902-e8a5460dab38)
+	)
+	(label "GND"
+		(at 223.52 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 19ce29b8-c143-5bf4-bd0c-65ce5f8c5a74)
+	)
+	(wire
+		(pts
+			(xy 182.88 132.08)
+			(xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 37c5f6e3-4a81-5ff0-a219-c88d1dd75d6f)
+	)
+	(label "UART_RX"
+		(at 180.34 132.08 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid ebd372d1-4484-5abd-95e8-8a652fd5e8a4)
+	)
+	(wire
+		(pts
+			(xy 203.2 132.08)
+			(xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d8084ff2-a3c9-57f6-a04f-0cfdb697ce84)
+	)
+	(label "UPDI"
+		(at 205.74 132.08 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b8c97c15-cc53-5350-8c01-6a602c3e4c58)
+	)
+	(wire
+		(pts
+			(xy 182.88 142.24)
+			(xy 180.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 058ed65b-a48a-536e-b089-67883c724fda)
+	)
+	(label "UART_TX"
+		(at 180.34 142.24 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid cdef496a-ddb1-5dcb-ba11-5fba57dd8ce6)
+	)
+	(wire
+		(pts
+			(xy 203.2 142.24)
+			(xy 205.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 82517949-a733-5c82-9e73-fe4c14378fbd)
+	)
+	(label "UART_RX"
+		(at 205.74 142.24 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 1c9ea6d2-ec7b-500b-9cf5-aa72625096e0)
+	)
+	(wire
+		(pts
+			(xy 187.96 127)
+			(xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ffc0091c-ddb6-5112-8554-9b3b99ec7968)
+	)
+	(label "UART_RX"
+		(at 190.5 127 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid 43398d81-e91b-5cfa-858b-35a8e0b22556)
+	)
+	(wire
+		(pts
+			(xy 187.96 132.08)
+			(xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cac9aae1-e0ef-5940-8e3d-9bb771dac0b6)
+	)
+	(label "UART_TX"
+		(at 190.5 132.08 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid b0eb5755-e10f-531e-9a55-c113c233f119)
+	)
+	(wire
+		(pts
+			(xy 187.96 137.16)
+			(xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 88ada1e7-2531-5d28-a0cb-cbc52baa6dbc)
+	)
+	(label "+3V3"
+		(at 190.5 137.16 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid ef1c9ec1-fca7-5535-a505-7db36f810dbd)
+	)
+	(wire
+		(pts
+			(xy 187.96 142.24)
+			(xy 190.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4d6d1154-f5c0-5b06-8860-46bf9a785b9a)
+	)
+	(label "GND"
+		(at 190.5 142.24 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid eae71462-b13f-58bb-a60d-38fcc2535427)
+	)
+	(no_connect
+		(at 152.4 101.6)
+		(uuid af3c15ab-92c8-5814-97ad-6fa94cece630)
+	)
+	(no_connect
+		(at 152.4 104.14)
+		(uuid 12dbb11d-e061-515d-b2bd-9e317faddbee)
+	)
+	(no_connect
+		(at 152.4 106.68)
+		(uuid 8e2672b8-0c7f-53ca-a084-4ba08cab62ad)
+	)
+	(no_connect
+		(at 152.4 109.22)
+		(uuid a8856d66-58db-5141-b3e8-1767f1b9efcb)
+	)
+	(no_connect
+		(at 152.4 124.46)
+		(uuid 08158ebe-4045-5908-97c2-a796f69b9994)
+	)
+	(no_connect
+		(at 152.4 121.92)
+		(uuid 7f271a6a-9547-5e72-b777-106c51f80644)
+	)
+	(no_connect
+		(at 152.4 119.38)
+		(uuid e339f2cf-8513-5a57-a857-e316e93bcb02)
+	)
+	(no_connect
+		(at 152.4 116.84)
+		(uuid e9a256d4-c807-5093-9ad6-a6ecaed4d605)
+	)
+	(no_connect
+		(at 111.76 119.38)
+		(uuid a027fbe1-b789-54f5-b272-0f7823262309)
+	)
+	(no_connect
+		(at 111.76 121.92)
+		(uuid 7f2f550b-6ebc-5fca-9e7d-c6c5e706de5e)
+	)
+	(no_connect
+		(at 152.4 93.98)
+		(uuid 53354936-15c1-5fac-8f0c-ca95b34a1a59)
+	)
+	(no_connect
+		(at 152.4 96.52)
+		(uuid 00dc6742-e9de-5a90-9602-fcbaf495e1de)
+	)
+	(no_connect
+		(at 251.46 111.76)
+		(uuid 4e4cc608-9365-5d40-9410-c6768a320fc4)
+	)
+	(no_connect
+		(at 251.46 45.72)
+		(uuid dcdd36f4-4228-5929-a537-2d4f9fb58251)
+	)
+	(no_connect
+		(at 251.46 50.8)
+		(uuid 2404c89f-87e3-5876-8c6f-5b53f239b2a7)
+	)
+	(symbol
+		(lib_id "notuchswitch:WIRE_PAD")
+		(at 22.86 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid e1716034-e1e4-5f61-8f65-63139979fb4c)
+		(property "Reference" "J1"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "L_IN_BROWN_0.75mm2"
+			(at 25.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:WirePad_D3.2mm"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Soldered brown mains lead"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 490c2ea6-c8bd-53f8-a0b1-5dce384c30bd))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:WIRE_PAD")
+		(at 22.86 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 4b60dfe5-0ca6-565d-88cb-d6121f39a6c6)
+		(property "Reference" "J2"
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "N_IN_BLUE_0.75mm2"
+			(at 25.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:WirePad_D3.2mm"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Soldered blue neutral input lead"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid a0ef1ebd-0df1-5ac2-b342-5bab6103d838))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:WIRE_PAD")
+		(at 177.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 7f31fe21-a19d-5893-bc12-2345c644499d)
+		(property "Reference" "J3"
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "L_SW_BLACK_0.75mm2"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:WirePad_D3.2mm"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Soldered black switched-live output lead"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid c9c27312-84ad-573c-863e-273c0b8fc2b9))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:WIRE_PAD")
+		(at 22.86 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 9adae764-a237-5d55-b734-1abc82540df6)
+		(property "Reference" "J4"
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "N_OUT_BLUE_0.75mm2"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:WirePad_D3.2mm"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Soldered blue neutral onward lead; mark separately from J2"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid ef6eec5f-6f2b-501a-bd08-161887cab230))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:WIRE_PAD")
+		(at 177.8 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 326260bc-ef5c-5b02-a7b7-62d5d6b1070a)
+		(property "Reference" "J8"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "RELAY_L_IN_WIRE_0.75mm2"
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:WirePad_D3.2mm"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Relay pin 14 solder pad; connect to fused live with an external insulated wire"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 3c786a9a-3ca6-5f5a-b7f9-c4589e096894))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 53.34 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid a5f3613a-6ef5-5068-a235-b38390168b52)
+		(property "Reference" "F1"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "T1A_250V_SLOW"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:Fuse_Radial_P5.08mm_PLACEHOLDER"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Soldered PCB fuse; verify purchased fuse dimensions"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid fe2effed-1be9-5465-ae4f-cf5e95e4330f))
+		(pin "2" (uuid d450dbe8-3f3e-54be-9b87-bff5c47bfa04))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 53.34 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 796f5b08-a011-5988-a0d3-6aba952edd64)
+		(property "Reference" "RV1"
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "10D561K_RECOMMENDED_BY_HLK"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:Varistor_10D_P7.50mm_PLACEHOLDER"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "THT varistor; HLK-2M05 datasheet recommends 10D561K, verify exact purchased part and spacing"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 39c5e8f8-8724-5f1c-8c5c-b436add66d03))
+		(pin "2" (uuid cf20e805-0926-5dc4-a500-e7347e66c346))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 93.98 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 731a4405-756b-5841-970b-de462371c433)
+		(property "Reference" "CX1"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "100nF_X2_275VAC"
+			(at 96.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:X2_Capacitor_P10.00mm_PLACEHOLDER"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "THT class X2 capacitor; verify exact body dimensions"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 8bd86397-44b7-569a-b69d-0a7a9567d0ee))
+		(pin "2" (uuid cd3cbf50-6e11-564a-8686-c506a748a9ab))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "CX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:HLK_2M05")
+		(at 93.98 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 908211bf-8e10-504b-af13-58f81bbef136)
+		(property "Reference" "PS1"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "HLK-2M05_5V_400mA"
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:HLK-2M05"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Selected isolated AC/DC module, 30.5 x 16.5 x 19 mm body; 400 mA continuous, at least 500 mA short-term"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 77642f10-e2ca-50c6-88a5-b252df7aa4c4))
+		(pin "2" (uuid c939baca-a22b-531d-b453-9bfbeac43043))
+		(pin "3" (uuid 91e18862-ef38-502e-ab93-e7eefb7616dd))
+		(pin "4" (uuid 337cb6a2-4592-54fa-954f-963c9e26f138))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:RELAY_SPST_NO")
+		(at 142.24 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 4e22c219-9309-5a28-8f80-9481ead781d1)
+		(property "Reference" "K1"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "HF32F-G_005-HS_5V"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "notuchswitch:HF32F-G"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Normally-open relay: hardware default is OFF; pin 14 is fed through J8 by an external insulated wire"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "A1" (uuid be1ac86e-4f04-5782-abb1-8567579a4301))
+		(pin "A2" (uuid 0c5fbdc0-5c5d-57f9-b6a8-cdb3b3d151e7))
+		(pin "14" (uuid 69c42a9d-1d3e-5a66-8c69-f097bc5558c0))
+		(pin "13" (uuid 4cb9d064-3dde-56ad-a12e-28d4ebe103e1))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:CAP_VERTICAL")
+		(at 22.86 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 88ca5a1d-2dc0-53d6-95e2-15618251a229)
+		(property "Reference" "C1"
+			(at 25.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "220uF_10V"
+			(at 25.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
+			(at 22.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "5 V output bulk capacitor"
+			(at 22.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 4159d6a6-69ef-57b9-8684-a11993fd333e))
+		(pin "2" (uuid a0454aaa-f63e-5514-8d42-b07fc52554ba))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:AMS1117_3V3")
+		(at 55.88 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 628eaf39-942c-52e8-b692-c9d5b069f587)
+		(property "Reference" "U2"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 83192412-08ea-51ca-976f-f59d013fdc03))
+		(pin "2" (uuid 082cd84c-ef7f-5f50-b47e-4c71f2f91576))
+		(pin "3" (uuid 3571e4f7-8608-540d-89e4-79448a5a7dcd))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:CAP_VERTICAL")
+		(at 33.02 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid d1684d6b-e618-5ee7-b58b-6dedb1667443)
+		(property "Reference" "C2"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "10uF_10V"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "AMS1117 input capacitor"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 974fe9af-524e-50f5-80cc-742d4be8da08))
+		(pin "2" (uuid 14c1cc19-d60b-5663-ab95-fbeff9a35232))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:CAP_VERTICAL")
+		(at 78.74 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 4b2a4902-ee2d-54ee-96d2-027dc1d376fa)
+		(property "Reference" "C3"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "10uF_10V"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "AMS1117 output capacitor"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 27cce4a0-30c5-5ddc-a9be-0fb369958eef))
+		(pin "2" (uuid 5a10a13e-b19f-587e-8007-4481428b59e1))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 104.14 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid f1be5328-da61-5f52-98d7-1ff88a24c90f)
+		(property "Reference" "C4"
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "MCU local decoupling"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 157e4d87-fc2f-5eb1-b95f-9fa15f7d8114))
+		(pin "2" (uuid a26061ee-3109-54dd-8691-84f13a079115))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 233.68 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid db40025d-2245-5b35-87f9-b4093a1f9f2d)
+		(property "Reference" "C5"
+			(at 236.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "100nF"
+			(at 236.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 233.68 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "APDS module local decoupling"
+			(at 233.68 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid e9407c4a-fc40-57bf-b337-592a57ef1354))
+		(pin "2" (uuid 445902ba-17ef-5021-8bd1-0b57c9fb5f28))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 236.22 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid ab789714-d8c8-50ad-8a26-249978a9ac33)
+		(property "Reference" "C6"
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "100nF"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "WS2812 local decoupling"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 701a5077-ffac-519d-9408-f945e34513b8))
+		(pin "2" (uuid 2e29c579-1c0f-52fe-bde3-6eed9217c47c))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:ATTINY3216_SOIC20")
+		(at 132.08 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 0448fff2-e57d-5218-a2eb-955fcc3564b2)
+		(property "Reference" "U1"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "ATtiny3216-S_SOIC20"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Official KiCad ATtiny3216-S pinout checked; unused GPIO remain free"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 2ecca89c-5f3c-53d3-bdad-bcba8cb07aa8))
+		(pin "2" (uuid 7cd2765f-789e-5105-a354-48fc4e9b4388))
+		(pin "3" (uuid fc6e0271-9062-5a23-8fa8-7155ceb57e23))
+		(pin "4" (uuid a9aed831-58ff-54fb-87b6-4dab10896c80))
+		(pin "5" (uuid f0234628-9cf1-5136-83cc-14e5f57f99d4))
+		(pin "6" (uuid e8d59492-ab44-5ec7-b048-cc30e5361476))
+		(pin "7" (uuid e519a494-7452-596b-b799-fd040ed43bc7))
+		(pin "8" (uuid c96ac77a-5b1c-5067-a306-eaf4a34ea730))
+		(pin "9" (uuid 3599c8e3-ac51-50d9-931b-b4b00cb7903f))
+		(pin "10" (uuid a36652c8-b494-5084-b933-9357afc1a535))
+		(pin "11" (uuid f8867073-e58b-5bc9-8253-044171fb0b42))
+		(pin "12" (uuid 95f6c8af-4024-5b92-b26c-4138c22c8a48))
+		(pin "13" (uuid 31b10230-fc3a-5567-a367-138c5c743ad3))
+		(pin "14" (uuid 01f088ef-fc8b-509e-a0ca-2e84586ab543))
+		(pin "15" (uuid 94d963b4-f064-553f-ad14-095d68f08652))
+		(pin "16" (uuid 446217a8-d801-533c-9874-17689c1e92ff))
+		(pin "17" (uuid ef020276-4a66-5e05-833f-b76ceb542e3b))
+		(pin "18" (uuid 6eb8d2df-d9b8-57cb-aece-e9e8bce20bb5))
+		(pin "19" (uuid ac9b40cc-67b5-54d5-95f2-7cf04b31486d))
+		(pin "20" (uuid ac25c8dd-848c-5124-8355-58c89dd1c285))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:MOSFET_N")
+		(at 198.12 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 42140b29-8c4a-5d22-be88-e30195f3a376)
+		(property "Reference" "Q1"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "IRLML6344"
+			(at 200.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid c8f7dd7f-f029-5321-9979-35ead2c6bb77))
+		(pin "2" (uuid a56efbe4-4622-5c8c-bbbf-2c0726743ef1))
+		(pin "3" (uuid 5fbf9273-1046-5943-95e3-d5ed224d6046))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 198.12 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 766ac9f4-6705-51ae-bd0e-8643893bd144)
+		(property "Reference" "D1"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Relay flyback diode: pin 1 cathode to +5 V"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid c498cc19-e196-5332-a6a4-5a1f9c57ad63))
+		(pin "2" (uuid c6d74435-1095-528e-8611-fde96ab28bf2))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 170.18 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 81005aaf-09ce-5da1-8b7f-a69ef650b020)
+		(property "Reference" "R1"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "100R"
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid a60d1cec-b9e0-54a3-a149-23aa62f38178))
+		(pin "2" (uuid 69e27fb7-0145-5aac-bd3e-91ccd936e5fa))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 177.8 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 47bd0925-d5d2-58c5-81cc-1fef5ace1f8e)
+		(property "Reference" "R2"
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "10k"
+			(at 180.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "MOSFET gate pull-down keeps relay OFF at reset"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 724dd704-f10b-5a8e-beb3-34312fb1395b))
+		(pin "2" (uuid 36b7346d-3d33-510b-bc28-a03ac4a7a3a4))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:CONN_1X06")
+		(at 177.8 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 625de82b-1f8c-5edf-aefb-71c0e248738a)
+		(property "Reference" "J5"
+			(at 180.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "APDS-9960_BREAKOUT_1x06"
+			(at 180.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 177.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Expected order VL,GND,VCC,SDA,SCL,INT; verify delivered breakout before soldering"
+			(at 177.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 96048aca-cf63-5ad8-b3b6-9841bec56629))
+		(pin "2" (uuid 8f22b582-a18c-55c4-bd88-6723a4e86005))
+		(pin "3" (uuid 38a98ff7-e732-5d23-af17-d3327036628c))
+		(pin "4" (uuid e0e18b9e-bd0d-5350-8d92-0c970dd0a9e1))
+		(pin "5" (uuid 1911a458-9374-51ca-a287-eed94b7e7494))
+		(pin "6" (uuid 1a9dbfc7-0dfa-59c2-9c4e-f2f99cc4c11d))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 205.74 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid c0f9a926-d7b3-5ef5-b4b4-0fbe058a87b1)
+		(property "Reference" "R6"
+			(at 208.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "10k_DNP"
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Optional SDA pull-up"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 537aa730-b96f-515b-9318-9691de0d557b))
+		(pin "2" (uuid 726825c4-a567-51b1-867f-8711d2678eb5))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 205.74 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid a4cfa3d1-8c94-53f8-9ffb-209f4a4cf825)
+		(property "Reference" "R7"
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "10k_DNP"
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 205.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Optional SCL pull-up"
+			(at 205.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid e62eac10-6c00-5fb4-83db-20c9b9221d71))
+		(pin "2" (uuid c6af2d68-7acf-51ec-b9a1-ca53e012eea9))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 205.74 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid a94f632c-66ea-5f11-9222-f5a2bb9e6f11)
+		(property "Reference" "R8"
+			(at 208.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "10k_DNP"
+			(at 208.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 205.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Optional INT pull-up"
+			(at 205.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 19852d72-7d2e-5ecb-9764-a8c00ba66a91))
+		(pin "2" (uuid b32eedac-5d72-54f3-b533-a08105b02a50))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:WS2812B")
+		(at 238.76 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid cb48d78c-e517-5a7d-a5f9-17bc0c2a4350)
+		(property "Reference" "D4"
+			(at 241.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "WS2812B-V5/W"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 238.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "V5/W VIH margin is narrow at 3.3 V MCU drive; verify on prototype"
+			(at 238.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid bc9439e7-335f-502a-8070-49c0362a88dc))
+		(pin "2" (uuid dc3c0afe-9dd3-563c-b597-9af092d479d4))
+		(pin "3" (uuid 8c549b1c-2a8e-5eaa-8bc3-4ad5a0a04344))
+		(pin "4" (uuid 6c5174c8-21cd-5b5c-bfaa-be454616a115))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 215.9 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid e6143710-f10c-5c4f-b2cb-48b818e5340c)
+		(property "Reference" "R3"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "470R"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 22be244b-0406-5c85-ae22-f8d33ba68b6e))
+		(pin "2" (uuid 6784cb3d-7161-5e5e-a5da-55cb0181c401))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:USB_A")
+		(at 238.76 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid f8349135-722c-5a02-9438-caa5a1110d5f)
+		(property "Reference" "J6"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "USB_A_SLOW_CHARGE_ONLY"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Direct +5 V VBUS; D+/D- intentionally unconnected; charging speed and phone compatibility are device-dependent"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid f0fff232-290c-5097-857d-b8b5e235f84f))
+		(pin "2" (uuid cef3d8ef-4cdb-5200-970e-7063ecd492db))
+		(pin "3" (uuid 76a2b625-5c8b-557d-8a51-ea02bbeb6832))
+		(pin "4" (uuid 87f9a08e-ce06-5a16-9dc3-18dcabac9613))
+		(pin "5" (uuid 4719bd57-d748-5e4f-b273-e3c02988c973))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 193.04 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid e609edd5-158f-5b27-bb0d-80b42c8cf789)
+		(property "Reference" "R9"
+			(at 195.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "470R"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "On-board SerialUPDI series resistor"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 29e74611-648b-50db-9ca3-976bbfbc3400))
+		(pin "2" (uuid eddddff4-9b80-502b-8b3c-69d79fe1c13f))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:PASSIVE2")
+		(at 193.04 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid dad9e9d1-6cd4-5158-8975-9731119c23cf)
+		(property "Reference" "D5"
+			(at 195.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "BAT54HT1G"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "SerialUPDI Schottky diode: pin 1 cathode to UART_TX"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid 2abd04f3-69f2-5733-aa8d-4854641636ce))
+		(pin "2" (uuid 9651cb61-3b88-50a0-bd81-2bb1366fdd7f))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "notuchswitch:CONN_2X02")
+		(at 177.8 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 5aa50a3e-f7e1-567a-9521-42930c592017)
+		(property "Reference" "J7"
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Value" "SERIALUPDI_UART_HEADER"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(property "Description" "Compact 2x2 2.54 mm header for direct USB-UART module connection"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+
+			(hide yes)
+			)
+		)
+		(pin "1" (uuid dc89d54e-2476-5beb-bce7-3f31bb2cf83d))
+		(pin "2" (uuid 734ba00d-c630-5bd3-ab4b-f0e97695977e))
+		(pin "3" (uuid 2588c94c-ba57-55cf-912c-4fca58d51e18))
+		(pin "4" (uuid 59e6d215-50cb-565a-b6b2-e0b9733b92ba))
+		(instances
+			(project "notuchswitch"
+				(path "/53dc1b8e-9baf-55a0-b94e-605770f90b8b"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
